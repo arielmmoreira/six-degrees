@@ -22,7 +22,7 @@ After loading data, we are ready to begin our search. First we need two inputs, 
 
 With these two ids, we can use another function, 'shortest_path', to look for a path that connects our source and target.And here is the main part of the function
 
-    '''if path is None:
+    if path is None:
         print("Not connected.")
     else:
         degrees = len(path)
@@ -32,4 +32,4 @@ With these two ids, we can use another function, 'shortest_path', to look for a 
             person1 = people[path[i][1]]["name"]
             person2 = people[path[i + 1][1]]["name"]
             movie = movies[path[i + 1][0]]["title"]
-            print(f"{i + 1}: {person1} and {person2} starred in {movie}")'''
+            print(f"{i + 1}: {person1} and {person2} starred in {movie}")

@@ -22,6 +22,8 @@ After loading data, we are ready to begin our search. First we need two inputs, 
 
 With these two ids, we can use another function, 'shortest_path', to look for a path that connects our source and target.And here is the main part of the function
 
+    path = shortest_path(source, target)
+    
     if path is None:
         print("Not connected.")
     else:

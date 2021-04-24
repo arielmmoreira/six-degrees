@@ -107,4 +107,10 @@ queue = {actor}
 action, state = neighbors_for_person()
 node = Node(state=102, parent=158, action=112384) # this action is the id for the movie Apollo 13, which Tom Hanks and Kevin Bacon starred together
 
-solution = [102, 112384]
+solution = [(102, 112384)]
+
+path = [(None, 158), (102, 112384)]
+
+person1 = 158 - Tom Hanks
+person2 = 102 - Kevin Bacon
+movie = 112384 - Apollo 13

@@ -96,3 +96,15 @@ The first for loop inside the while loop is looking for a connection based on ne
                     node = node.parent
 
 When we find the target, this while loop will backtrack to show us all the connections.
+
+# Example
+source = 'Tom Hanks' id = 158
+target = 'Kevin Bacon' id = 102
+
+actor = Node(state=158, parent=None, action=None)
+queue = {actor}
+
+action, state = neighbors_for_person()
+node = Node(state=102, parent=158, action=112384) # this action is the id for the movie Apollo 13, which Tom Hanks and Kevin Bacon starred together
+
+solution = [102, 112384]

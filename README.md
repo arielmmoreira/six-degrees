@@ -98,6 +98,8 @@ The first for loop inside the while loop is looking for a connection based on ne
 When we find the target, this while loop will backtrack to show us all the connections.
 
 # Example
+Just an example to illustrate what happens inside the code. This is a simplification!
+
 source = 'Tom Hanks' id = 158
 target = 'Kevin Bacon' id = 102
 
